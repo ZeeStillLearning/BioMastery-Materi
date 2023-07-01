@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpolos"
+    tools:context=".Komponen">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="340dp"
+        android:layout_height="620dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Komponen Penyusun Kimia Sel"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/nomer"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:accessibilityLiveRegion="polite">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingHorizontal="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/kom1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:text="Seluruh bagian sel tersusun atas beberapa komponen senyawa kimia. Kegiatan dan kehidupan sel juga merupakan akibat dari reaksi-reaksi kimia yang berlangsung di dalam sel. Komponen kimiawi sel yang meliputi seluruh aktivitas sel tersebut dikenal dengan nama protoplasma. Protoplasma merupakan substansi kompleks yang tersusun atas unsur-unsur kimia. Sebagian besar protoplasma terdiri atas air, namun bahan yang memberi ciri pada strukturnya justru adalah protein dan beberapa senyawa kimia lain. Bentuk senyawa dari komponen kimiawi penyusun sel (protoplasma) tersebut dapat berupa senyawa organik dan senyawa anorganik. Senyawa organik dalamkomponen sel bisa berupa karbohidrat, lemak, protein, dan asam nukleat. Sedangkan komponen senyawa anorganiknya bisa berupa air, vitamin, ataupun mineral. Berikut ini kita akan bahas mengenai komponen kimiawi penyusun sel tersebut secara mendalam."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="a) Karbohidrat \nKomponen kimiawi sel yang pertama adalah karbohidrat. Karbohidrat sangat vital untuk proses-proses fisiologi dalam sel makhluk hidup. Dengan rumus molekul (H2O)n. Karbohidrat terdiri atas unsur karbon (C), oksigen (O), dan hidrogen (H). Pada tumbuhan, karbohidrat dibentuk oleh sel-sel yang memiliki hijau daun (kloroplas mengandung klorofil) melalui proses fotosintesis. Berdasarkan fungsinya, karbohidrat dapat dikelompokkan menjadi karbohidrat sederhana (sebagai sumber energi di dalam sel), karbohidrat rantai pendek (sebagai cadangan energi), serta karbohidrat rantai panjang (sebagai komponen struktural organel dan bagian sel lainnya). Sedangkan berdasarkan struktur ikatan molekulnya, karbohidrat digolongkan menjadi monosakarida, disakarida, dan polisakarida. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="b) Lemak \nKomponen kimiawi sel selanjutnya ialah lemak. Lemak tersusun atas unsur karbon, hidrogen, dan oksigen. Lemak dibangun oleh gliserol dan asam lemak. Dalam sel hidup, lemak berfungsi sebagai komponen utama membran plasma, pembentukan hormon, dan pembentukan vitamin. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="c) Protein \nProtein tersusun atas karbon , hidrogen, oksigen dan nitrogen. Protein merupakan unsur organik terbesar yang menyusun sebuah sel. Protein merupakan polimer dari asam amino yang saling berikatan dengan ikatan peptida. Protein merupakan peyusun protoplasma terbesar setelah air, protein tersusun atas Protein struktural dan protein fungsional. Protein struktural adalah protein penyusun organel sel. Misal Membrane, Mitokondria, Ribosom, Retikulum endoplasma, sedangkan Protein fungsional adalah protein yang terlibat dalam metabolisme tubuh Meliputi enzim-enzim dan hormon yang berfungsi mengatur- reaksi-reaksi kimia yang menjaga sel tetap hidup. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="d) Asam Nukleat\nDalam komponen kimiawi sel, asam nukleat merupakan materi inti. Ada dua macam asam nukleat, yaitu asam deoksiribonukleat (DNA) dan asam ribonukleat (RNA). Fungsi asam nukleat adalah untuk mengontrol aktivitas sel dan membawa informasi genetik. Asam nukleat merupakan polimer nukleotida. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="e) Air \nAir adalah senyawa utama komponen kimiawi sel yang jumlahnya terbesar dalam menyusun sel (50 – 65% berat sel). Air adalah komponen esensial cairan tubuh yang terdiri dari plasma darah, cairan intrasel (sitoplasma), dan cairan ekstrasel. Air dalam sel berfungsi sebagai pelarut dan katalisator beberapa reaksi biologis. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="f) Vitamin\nKomponen kimiawi selanjutnya adalah vitamin. Vitamin memang dibutuhkan dalam jumlah kecil, akan tetapi ia harus ada untuk menunjang berbagai fungsi sel dalam proses metabolismenya. Peran vitamin adalah mempertahankan fungsi metabolisme, pertumbuhan, dan sebagai penghancur radikal bebas . Beberapa contoh vitamin yang saat ini telah ditemukan antara lain A, B1, B2, B3, B5, B6, B12, C, D, E, K dan H. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/kom8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="g) Mineral \nMineral adalah komponen struktural sel yang berfungsi dalam pemeliharaan fungsi dan kerja metabolisme, pengaturan enzim, menjaga keseimbangan asam dan basa. Di dalam sel, mineral ada yang terkandung dengan jumlah yang besar (makroelemen) dan dalam jumlah sedikit (mikroelemen. Beberapa contoh mineral makroelemen misalnya kalsium, magnesium, fosfor, klor,natrium, dan belerang. Sedangkan contoh mineral mikroelemen antara lain zat besi, yodium, seng, kobalt, fluorin. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blom"
+        android:elevation="2dp" />
+
+
+
+</RelativeLayout>

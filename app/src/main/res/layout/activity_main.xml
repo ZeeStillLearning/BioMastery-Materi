@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgpolos"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/biomaster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Biomastery"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/blom"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/biomaster"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/blom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blom"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ijo"
+            android:text="Introducing Sel"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ijo"
+            android:layout_marginTop="10dp"
+            android:text="Ciri-ciri Sel"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ijo"
+            android:layout_marginTop="10dp"
+            android:text="Jenis-jenis Sel"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ijo"
+            android:layout_marginTop="10dp"
+            android:text="Komponen Penyusun Kimia Sel"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ijo"
+            android:layout_marginTop="10dp"
+            android:text="Struktur Organel Sel dan Fungsinya"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:onClick="onButtonClick"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

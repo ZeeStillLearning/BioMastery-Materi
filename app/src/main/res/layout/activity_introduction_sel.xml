@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpolos"
+    tools:context=".Introduction_sel">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="340dp"
+        android:layout_height="620dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Introduction Sel"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/nomor"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:accessibilityLiveRegion="polite">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingHorizontal="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/teks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sel adalah satuan unit struktural dan fungsional terkecil dari mahluk hidup yang merupakan dasar penyusun bagian-bagian tubuh. Sel merupakan komponen yang paling sederhana dalam sistem organisasi kehidupan."
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/teks2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sel pertama kali diobservasi dan diidentifikasi oleh fisikawan Inggris bernama Robert Hook pada tahun 1665. Kemudian, dua ilmuwan Jerman – Schwann dan Schleiden mengemukakan prinsip dasar baru sel pada tahun 1893. Teori mengenai sel terdiri dari 3 prinsip berikut:"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/teks3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/black"
+                        android:text="1. Semua makhluk hidup tersusun dari satu sel atau lebih. \n 2. Sel adalah unit dasar dari struktur dan fungsi pada makhluk hidup. \n 3. Sel-sel lainnya berasal dari proses penggandaan (replikasi) sel yang telah ada sebelumnya."/>
+
+                    <TextView
+                        android:id="@+id/teks4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Menurut penjelasan di atas, sel merupakan satuan unit terkecil makhluk hidup, termasuk manusia. Nah, kira-kira ada berapa ya jumlah sel manusia? \n \n Sebenarnya, belum diketahui secara pasti berapa jumlah sel manusia. Sampai saat ini, para ahli masih meneliti lebih lanjut terkait hal ini. Tapi, diperkirakan rata-rata tubuh manusia memiliki sekitar 30–40 triliun sel. Wow, banyak sekali ya!"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blom"
+        android:elevation="2dp" />
+
+
+
+</RelativeLayout>

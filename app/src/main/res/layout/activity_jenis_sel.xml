@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpolos"
+    tools:context=".Jenis_sel">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="340dp"
+        android:layout_height="620dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Jenis-jenis Sel"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/nomor"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:accessibilityLiveRegion="polite">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingHorizontal="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Jenis-jenis sel dibagi berdasarkan tiga hal, yaitu materi genetik, membran inti, dan sitoplasma. Materi genetik sendiri merupakan substansi yang mengatur sifat pada makhluk hidup. Materi genetik dapat berupa DNA dan RNA, serta bisa diwariskan dari induk ke keturunannya.\n \n Materi genetik dalam sebuah sel, ada yang dibungkus oleh membran inti, tapi ada juga yang nggak dibungkus membran inti. Kalau materi genetiknya dibungkus oleh membran inti, maka disebut sebagai sel eukariotik, sedangkan kalau materi genetiknya nggak dibungkus membran inti, maka disebut sel prokariotik. "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="1. Sel Prokariotik \n \n Sel prokariotik adalah organisme pertama yang hidup di bumi. Organisme yang termasuk dalam tipe sel ini, antara lain archaebacteria/eubacteria dan blue green algae. Karakteristik umum dari sel prokariotik adalah sebagai berikut: \n \n  - Ukuran sel berkisar antara 1 – 10 mikron. \n - Uniselular yang membentuk koloni/filamen. \n - Bentuk sel terdiri dari bulat, batang, dan datar. \n - Ada yang bersifat autotrof dan heterotrof. \n - Reproduksi secara aseksual: pembelahan biner, transformasi, konjugasi, dan transduksi."
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/img_1"/>
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="2. Sel Eukariotik \n \n Tipe sel yang satu ini merupakan sel yang paling kompleks jika dibandingkan dengan sel prokariotik. Contoh sel eukariotik, antara lain sel hewan dan sel tumbuhan. Sel eukariotik memiliki membran yang mengikat nukleus dan organel sel lainnya di dalam sel. Organel sel yang saling terikat satu sama lain ini membentuk suatu sistem selular yang fungsional."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Berikut ini adalah beberapa karakteristik dari sel eukariotik: \n \n- Ukuran sel berkisar antara 10 – 100 mikron.\n- Struktur sel yang kompleks (organel sel) dan multiselular.\n- Reproduksi secara mitosis (sel tubuh) maupun meiosis (sel kelamin).\n- Dapat bersifat autotrof atau heterotrof."
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/img_2"/>
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/img_3"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blom"
+        android:elevation="2dp" />
+
+</RelativeLayout>

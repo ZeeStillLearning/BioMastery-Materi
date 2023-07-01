@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpolos"
+    tools:context=".Ciri_sel">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="340dp"
+        android:layout_height="620dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ciri-ciri Sel"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/nomor"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:accessibilityLiveRegion="polite">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingHorizontal="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/teksciri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="a. Berukuran 1 – 100 mikrometer.\n \nb. Dibedakan menjadi sel prokariotik dan sel eukariotik. Sel prokariotik adalah sel yang tidak memiliki membran inti sedangkan sel eukariotik adalah sel yang memiliki membran inti \n \nc. Tersusun atas komponen kimiawi seperti karbohidrat, protein, lemak, air, vitamin dan mineral\n \nd. Sel eukariotik tersusun atas membran sel, sitoplasma dan materi genetik (DNA dan RNA)\n \ne. Pada sel eukariotik materi genetik tersebar di sitoplasma sedangkan sel prokariotik materi genetik terdapat di dalam inti sel\n \nf. Memiliki ribosom\n \ng. Memiliki sitoskeleton (rangka sel) \n \nh. Sitoplasma sel eukariotik mengandung organel sel seperti mitokondria, retikulum endoplasma, badan golgi, lisosom, plastida, vakuola, sentriol, dan badan mikro \n \ni. Sel prokariotik memiliki mesosom sebagai pengganti mitokondria\n \nj. Dapat bereproduksi yakni dengan melakukan pembelahan sel, baik secara mitosis maupun meiosis\n \n k. Dapat mewariskan sifat ke sel baru hasil pembelahan (sebagai unit hereditas)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blom"
+        android:elevation="2dp" />
+
+
+
+</RelativeLayout>
